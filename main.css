@@ -1,10 +1,14 @@
+img{
+	max-width: 100%;
+}
 header{
 	background-image: url("../img/background/hero.jpg");
 	background-size: 100%;
+	background-repeat: no-repeat;
 }
 header section{
 	background: rgba(0, 0, 0, 0.5);
-	height: 800px;
+	background-size: 100%;
 }
 *{
 	font-family: "Open Sans";
@@ -31,10 +35,354 @@ body{
 	font-weight: bolder;
 	font-size: 20px;
 }
-.titulo{
-	font-size: 4em;
+.titulo1{
+	font-size: 3em;
+	margin-top: 15%;
 }
+.parrafo{
+	margin-top: 3%;
+}
+.slogan{
+	font-size: 14px;
+	margin-top: 10px;
+}
+.our {
+	padding: 15px;
+	background: #3C3C3C;
+	display: inline-block;
+	margin: 5% 10px 20% 5%;
+}
+.learn {
+	padding: 15px;
+	background: rgba(0, 0, 0, 0.4);
+	display: inline-block;
+	margin: 5% 0 20% 0;
+}
+.our a{
+	color: #E3E1E1;
+	font-weight: 700;
+}
+.learn a{
+	font-weight: 700;
+}
+/*estilos de servicios*/
+.servicios i{
+	font-size: 3em;
+}
+.servicios p{
+	font-size: 12px;
+	width: 70%;
+	margin-left: 15%;
+}
+.servicios h2{
+	font-size: 16px;
+}
+.servicios{
+	padding: 80px;
+}
+.abajo{
+	margin: 80px 0px;
+}
+/*estilos de banner*/
+.laptop h1{
+	font-size: 2em;
+	font-weight: 500;
+}
+.laptop img{
+	max-width: 70%;
+}
+.laptop{
+	background-color: #EEEEEE;
+	padding: 30px;
+}
+/*estilos de parrafos*/
+.parrafos i{
+	font-size: 2em;
+	float: left;
+	margin-top: 7%;
+	margin-left: 5%
+	margin-right:5%;
+}
+.parrafos h3{
+	font-size: 16px;
+	margin-left: 7%;
+	margin-top: 7%;
+	color: #A0A0A0;
+}
+.parrafos p{
+	font-size: 14px;
+	margin-left: 7%;
+	width: 70%;
+	color: #A0A0A0;
+}
+.parrafos{
+	padding: 60px;
+	text-align: left;
+	margin-left: 60px;
+}
+/*estilos de portafolio*/
+.portfolio h1{
+	font-size: 2em;
+	font-weight: 500;
+	color: #434242;
+	margin-bottom: 10px;
+}
+.portfolio p{
+	margin-bottom: 10px;
+}
+.portfolio ul{
+	list-style-type: none;
+}
+.portfolio li{
+	display: inline-block;
+	margin: 10px 5px;
+}
+.portfolio a{
+	color: #050505;
+	font-weight: 700;
+	background-color: #FFFFFF;
+	padding: 10px;
+}
+.portfolio a:hover{
+	background-color: #4DD7CF;
+	color: #FFFFFF;	
+}
+.foto{
+	background-color: #FFFFFF;
+	margin-top: 10px;
+	padding: 10px;
+	margin-bottom: 10px;
+	border: groove 1px;
+}
+.foto h3{
+	font-size: 16px;
+}
+.foto p{
+	font-size: 14px;
+	color: gray;
+	margin-bottom: 10px;
+}
+.load{
+	background: rgba(37, 40, 67, 0.9);
+	color: #D5D3D3;
+	padding: 15px;
+	border: none 1px black;
+	font-size: 14px;
+	font-weight: 600;
+	margin-top: 50px;
+}
+.portfolio{
+	padding: 20px 120px;
+	background-color: #EFEEEE;
+}
+
+/*estilos de edificio*/
+.edificio{
+	background-image: url("../img/background/city.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+.edif{
+	background: rgba(0, 0, 0, 0.5);
+	padding: 180px;
+}
+.edif p{
+	font-size: 22px;
+	width: 700px;
+	margin: 20px 100px;
+}
+.edif h5{
+	background: rgba(255, 255, 255, 0.3);
+	padding: 10px;
+	font-size: 18px;
+	width: 200px;
+	margin-left: 40%;
+}
+.call{
+	color: #FFFFFF;
+}
+/*estilos de choose*/
+.choose button {
+	background-color: #4C4949;
+	color: #DCCFCF;
+	width: 150px;
+	height: 50px;
+	font-size: 18px;
+	font-weight: 600;
+	margin: 15px 0px;
+	border: none;
+}
+span {
+	font-size: 30px;
+	font-weight: 500;
+}
+.bajo{
+	margin-bottom: 30px;
+}
+hr {
+	margin-left: 60px;
+	color: #A5A4A4;
+}
+.choose h6 {
+	text-align: center;
+	margin: 15px 0px;
+	font-size: 16px;
+	color: #6A6969;
+	font-weight: 500;
+}
+.choose{
+	background-color: #E0DBDB;
+	height: 100%;
+	padding: 10px 60px 20px 60px;
+}
+.choose h1{
+	color: #767171;
+	margin-top: 50px;
+	font-size: 30px;
+	font-weight: 400;
+}
+.choose p {
+	color: #A69B9B;
+	margin: 10px 0px 50px 0px;
+}
+.packs{
+	background-color: #FFFFFF;
+	padding: 5px 0px;
+	margin-top: 10px;
+}
+.titulo {
+	background-color: #4E4C4C;
+	width: 270px;
+	height: 40px;
+	padding: 40px;
+	box-sizing: content-box;
+	margin-left: 15px;
+}
+.precio {
+	background-color:#E6E5E5;
+	width: 270px;
+	height: 70px;
+	padding: 40px;
+	box-sizing: content-box;
+	margin-left: 15px;
+}
+.color{
+	background-color: #04C2B2;
+	width: 150px;
+	height: 50px;
+	margin-left: 70px;
+}
+.premium{
+	background-color: #3EC2CE;
+}
+.title{
+	font-size: 35px;
+	font-weight: 500;
+}
+.choose h4{
+	font-size: 20px;
+	font-weight: 400;
+}
+/*estilos de comentarios*/
+.comentarios {
+	width: 80%;
+	height:70%;
+}
+.comentarios h2 {
+	margin-top: 60px;
+	color: #565656;
+	margin-left: 30%;
+	font-size: 30px;
+	font-weight: 300;
+}
+.comentarios img {
+	border-radius: 120%;
+	width: 100px;
+	height: 100px;
+	margin-top: 60px;
+	margin-left: 30%
+}
+.comentarios p {
+	margin-left: 30%;
+}
+.comentarios h5 {
+	margin-left: 30%;
+}
+/*estilos de contacto*/
 .1{
 	height: 220px;
 	width: 220px;
 }
+.contact {
+	background-image: url("../img/background/contactus.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	margin-top: 40px;
+}
+.content{
+	background: rgba(0, 0, 0, 0.5);
+}
+.contact h1{
+	color:white;
+	margin-top: 30px;
+}
+.contact h3 {
+	color:white;
+	margin-top: 20px;
+	margin-right: 260px;
+
+}
+.contact p{
+	color:white;
+	margin-top: 20px;
+}
+.texto{
+	margin-left: 150px;
+	text-align: center;
+	width: 500px;
+	color: white;
+	text-align: left;
+}
+.contact h5 {
+	margin-top: 20px;
+	margin-right: 40px;
+	color:white;
+	text-align: center;
+}
+.contact i{
+	margin-right: 5px;
+}
+.contact form{
+	margin-left:130px;
+	text-align: left;
+	margin-top: 15px;
+	}
+.contact input {
+	margin: 15px 0px;
+	width: 100%;
+}
+.contact textarea {
+	padding: 10px;
+	width: 100%;
+}
+.submit {
+	background-color: #04C2B2;
+	width: 100px;
+	height: 40px;
+	margin-left: 130px;
+	margin-top: 43px;
+}
+.submit a {
+	color: white;
+	text-decoration: none;
+	margin-left: 15px;
+	margin-top: 5px;
+}
+
+.from {
+	background-color:#BAB1B1;
+	width: 150px;
+	height: 50px;
+	margin-left: 70px;
+}
+
