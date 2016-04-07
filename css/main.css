@@ -1,0 +1,167 @@
+img{
+	max-width: 100%;
+}
+header{
+	background-image: url("../img/background/hero.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+header section{
+	background: rgba(0, 0, 0, 0.5);
+}
+*{
+	font-family: "Open Sans";
+}
+body{
+	text-align: center;
+}
+.star{
+	font-size: 20px;
+	text-align: left;
+}
+.menu ul{
+	list-style-type: none;
+}
+.menu li{
+	display: inline;
+	margin-right: 30px;
+}
+.menu a:hover{
+	color: #0dc0c0;
+}
+.menu a{
+	color: #FFFFFF;
+	font-weight: bolder;
+	font-size: 20px;
+}
+.titulo{
+	font-size: 3em;
+}
+.parrafo{
+	margin-top: 3%;
+}
+.our {
+	padding: 15px;
+	background: #3C3C3C;
+	display: inline-block;
+	margin: 5% 5% 20% 5%;
+}
+.learn {
+	padding: 15px;
+	background: rgba(0, 0, 0, 0.3);
+	display: inline-block;
+	margin: 5% 0 20% 0;
+}
+/*estilos de servicios*/
+.servicios i{
+	font-size: 3em;
+}
+.servicios p{
+	font-size: 12px;
+	width: 70%;
+	margin-left: 15%;
+}
+.servicios h2{
+	font-size: 16px;
+}
+/*estilos de banner*/
+.laptop h1{
+	font-size: 2em;
+	font-weight: 500;
+}
+.laptop img{
+	max-width: 70%;
+}
+/*estilos de parrafo*/
+.parrafos i{
+	font-size: 2em;
+	float: left;
+	margin-top: 7%;
+}
+.parrafos h3{
+	font-size: 16px;
+	margin-left: 7%;
+	margin-top: 7%;
+}
+.parrafos p{
+	font-size: 14px;
+	margin-left: 7%;
+	width: 80%;
+}
+/*estilos de portafolio*/
+.portfolio h1{
+	font-size: 2em;
+	font-weight: 500;
+	color: #434242;
+	margin-bottom: 10px;
+}
+.portfolio p{
+	margin-bottom: 10px;
+}
+.portfolio ul{
+	list-style-type: none;
+}
+.portfolio li{
+	display: inline-block;
+	margin: 10px 5px;
+}
+.portfolio a{
+	color: #050505;
+	font-weight: 700;
+	background-color: #FFFFFF;
+	padding: 10px;
+}
+.portfolio a:hover{
+	background-color: #4DD7CF;
+	color: #FFFFFF;	
+}
+.foto{
+	background-color: #FFFFFF;
+	margin-top: 10px;
+	padding: 10px;
+	margin-bottom: 10px;
+	border: groove 1px;
+}
+.foto h3{
+	font-size: 16px;
+}
+.foto p{
+	font-size: 14px;
+	color: gray;
+	margin-bottom: 10px;
+}
+.load{
+	background: rgba(37, 40, 67, 0.9);
+	color: #D5D3D3;
+	padding: 15px;
+	border: none 1px black;
+	font-size: 14px;
+	font-weight: 600;
+	margin-top: 50px;
+}
+.portfolio{
+	padding: 20px 120px;
+}
+/*estilos de edificio*/
+.edificio{
+	background-image: url("../img/background/city.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+.edif{
+	background: rgba(0, 0, 0, 0.5);
+	margin: 20px 0px;
+	padding: 180px;
+}
+.edif p{
+	font-size: 22px;
+	width: 700px;
+	margin: 20px 100px;
+}
+.edif h5{
+	background: rgba(255, 255, 255, 0.1);
+	padding: 10px;
+	font-size: 18px;
+	width: 200px;
+	margin-left: 40%;
+}
