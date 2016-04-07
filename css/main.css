@@ -1,0 +1,51 @@
+header{
+	background-image: url("../img/background/hero.jpg");
+	background-size: 100%;
+}
+header section{
+	background: rgba(0, 0, 0, 0.5);
+	height: 800px;
+}
+*{
+	font-family: "Open Sans";
+}
+body{
+	text-align: center;
+}
+.star{
+	font-size: 20px;
+	text-align: left;
+}
+.menu ul{
+	list-style-type: none;
+}
+.menu li{
+	display: inline;
+	margin-right: 30px;
+}
+.menu a:hover{
+	color: #0dc0c0;
+}
+.menu a{
+	color: #FFFFFF;
+	font-weight: bolder;
+	font-size: 20px;
+}
+.titulo{
+	font-size: 4em;
+}7.1{
+	height: 220px;
+	width: 220px;
+}
+.contact {
+	background-image: url("../img/background/contactus.jpg");
+	background-size: 100%;
+}
+.contact section{
+	background: rgba(0, 0, 0, 0.5);
+	height: 800px;
+}
+.contact h1{
+	color:white;
+	margin-top: 70px;
+}
